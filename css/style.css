@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+h1,h2,h3,ul {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.l-header {
+  width: 100%;
+  background-color: #F2F3F7;
+}
+
+.p-header__inner {
+  width: 100%;
+  height: 800px;
+  max-width: 974.5px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 56px;
+}
+
+.p-header {
+  width: 100%;
+  padding: 21px 0px 22px 37px;
+  background-color: #fff;
+  filter: drop-shadow(4px 4px 1px rgba(0, 0, 0, 0.161));
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  z-index: 100;
+}
+
+.p-header__logo {
+  width: 168px;
+  height: 34px;
+}
+
+.p-header__logo > img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.p-header__nav {
+  width: 65%;
+}
+
+.p-header__list {
+  display: flex;
+  margin: 0;
+}
+
+.p-header__listItem {
+  display: inline-block;
+  flex-grow: 1;
+  position: relative;
+}
+
+.p-header__listItem > a {
+  display: block;
+  font-family: 'Noto Sans CJK JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  color: #777777;
+  text-align: center;
+}
+
+.p-header__listItem > a::first-line {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.p-header__listItem::before {
+  content: '';
+  display: inline-block;
+  background-color: #000000;
+  height: 8px;
+  width: 1px;
+  position: absolute;
+  left: 0;
+  top: 32%;
+}
+
+.p-header__listItem:first-child:before {
+  display: none;
+}
+
+.p-header_mainImage {
+  background: url(../images/main_image.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 902.9px;
+  height: 0;
+  padding-top: 84%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.p-mainImage__title {
+  position: absolute;
+  left: 0;
+  top: 28%;
+  bottom: 87.2%;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 87px;
+  color: #D4004E;
+  z-index: 10;
+}
+
+.p-mainImage__text {
+  position: absolute;
+  left: 4.4%;
+  top: 62%;
+  font-family: 'Noto Sans CJK JP';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #D4004E;
+  z-index: 10;
+}
+
+.p-mainImage__scroll {
+  position: absolute;
+  bottom: 35px;
+  left: 47.42%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #E00052;
+  z-index: 10;
+}
+
+.p-mainImage__scroll::after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/scroll-border.png);
+  left: 45%;
+  top: 24px;
+  width: 4px;
+  height: 59px;
+  background-size: cover;
+}
+
