@@ -87,22 +87,35 @@ a {
   top: 32%;
 }
 
+.p-listItem__about::after {
+  content: "企業情報";
+  display: block;
+}
+
+.p-listItem__news::after {
+  content: "ニュース";
+  display: block;
+}
+
+.p-listItem__seavice::after {
+  content: "サービス&製品情報";
+  display: block;
+}
+
+.p-listItem__contact::after {
+  content: "お問合わせ";
+  display: block;
+}
+
 .p-header__listItem:first-child:before {
   display: none;
 }
 
 .p-header_mainImage {
   background: url(../images/main_image.png);
-  background-size: contain;
+  background-size: 94%;
   background-repeat: no-repeat;
-  width: 100%;
-  max-width: 902.9px;
-  height: 0;
-  padding-top: 84%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 10;
+  background-position-x: 67px;
 }
 
 .p-mainImage__title {
@@ -153,6 +166,6 @@ a {
   top: 24px;
   width: 4px;
   height: 59px;
-  background-size: cover;
+  background-size: contain;
 }
 
