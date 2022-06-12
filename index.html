@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="web制作実践課題①">
-  <title>web制作実践課題①</title>
+  <title>web制作実践課題①-3</title>
   <link href="https://unpkg.com/sanitize.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
   <header class="l-header">
     <div class="p-header__inner p-header_mainImage">
@@ -20,10 +18,11 @@
         </h1>
         <nav class="p-header__nav">
           <ul class="p-header__list">
-            <li class="p-header__listItem"><a href="#" class="p-listItem__about">ABOUT</a></li>
-            <li class="p-header__listItem"><a href="#" class="p-listItem__news">NEWS</a></li>
-            <li class="p-header__listItem"><a href="#" class="p-listItem__seavice">SEAVICE & PRODUCT</a></li>
-            <li class="p-header__listItem"><a href="#" class="p-listItem__contact">CONTACT</a></li>
+            <li class="p-header__listItem"><a href="#p-section__about" class="p-listItem__about">ABOUT</a></li>
+            <li class="p-header__listItem"><a href="#p-section__news" class="p-listItem__news">NEWS</a></li>
+            <li class="p-header__listItem"><a href="#p-section__service" class="p-listItem__seavice">SEAVICE &
+                PRODUCT</a></li>
+            <li class="p-header__listItem"><a href="#p-section__contact" class="p-listItem__contact">CONTACT</a></li>
           </ul>
         </nav>
       </div>
@@ -41,5 +40,154 @@
       </div>
     </div>
   </header>
+  <main class="l-main">
+    <div class="l-main__inner">
+      <article>
+        <div class="p-section" id="p-section__about">
+          <section>
+            <div class="p-section__about">
+              <div class="c-section__title">
+                <div class="c-section__titleImg">
+                  <img src="images/exclamation.png" alt="エクスクラメーション">
+                </div>
+                <h2>ABOUT</h2>
+              </div>
+              <p>
+                私たちの社会は、10年前、100年前、あるいは1000年前よりも確実に進化しています。科学こそが社会を進化させ、幸せをつくり出したのだと信じています。科学は与えられるものではなく、私たち自身が開拓し、進化させていくものです。144Labは、科学に触れ、さらなる開拓と進化に参加する人々を、ちょっとだけお手伝いします。
+              </p>
+              <div class="c-button p-about__button">
+                <a class="c-button__link c-button__linkRight" href="#">企業情報</a>
+              </div>
+          </section>
+        </div>
+        <div class="p-section" id="p-section__service">
+          <section>
+            <div class="p-section__service">
+              <div class="c-section__title">
+                <div class="c-section__titleImg">
+                  <img src="images/exclamation.png" alt="エクスクラメーション">
+                </div>
+                <h2>SERVICE & PRODUCT</h2>
+              </div>
+              <div class="p-service__content">
+                <figure>
+                  <img src="images/switch_science.png" alt="株式会社スイッチサイエンス" class="p-service__img">
+                </figure>
+                <div class="p-service__item">
+                  <h3 class="p-service__itemTitle">株式会社スイッチサイエンス</h3>
+                  <p class="p-service__itemText">
+                    最先端のテクノロジーを、より多くの人々が道具として当たり前に使える世界を目指して活動しています…
+                  </p>
+                  <div class="c-button p-service__button">
+                    <a class="c-button__link c-button__linkRight" href="#">詳しくはこちらへ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-service__content wrap">
+                <figure><img src="images/switch_education.png" alt="株式会社スイッチエデュケーション" class="p-service__img"></figure>
+                <div class="p-service__item">
+                  <h3 class="p-service__itemTitle">株式会社スイッチエデュケーション</h3>
+                  <p class="p-service__itemText">
+                    すべての子供にSTEM教育を実践することを目的に活動しています。考える、作る、発表するプロセスを…
+                  </p>
+                  <div class="c-button p-service__button">
+                    <a class="c-button__link c-button__linkRight" href="#">詳しくはこちらへ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-service__content">
+                <figure><img src="images/unko_button.png" alt="うんこボタンのイメージ" class="p-service__img"></figure>
+                <div class="p-service__item">
+                  <h3 class="p-service__itemTitle">うんこボタン</h3>
+                  <p class="p-service__itemText">
+                    赤ちゃんのうんちとおしっこの記録ができるボタンです。子育て世代をちょっとした工夫でお手伝いする…
+                  </p>
+                  <div class="c-button p-service__button">
+                    <a class="c-button__link c-button__linkRight" href="#">詳しくはこちらへ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="p-service__content wrap">
+                <figure> <img src="images/iot-logo.png" alt="IoTのロゴ" class="p-service__img"></figure>
+                <div class="p-service__item">
+                  <h3 class="p-service__itemTitle">IoT受託開発</h3>
+                  <p class="p-service__itemText">
+                    IoT製品の開発には、ソフトウェアからハードウェアまで様々な技術要素に関するノウハウが必要です。...
+                  </p>
+                  <div class="c-button p-service__button">
+                    <a class="c-button__link c-button__linkRight" href="#">詳しくはこちらへ</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="p-section news" id="p-section__news">
+          <section>
+            <div class="p-section__news">
+              <div class="c-section__title">
+                <div class="c-section__titleImg">
+                  <img src="images/exclamation.png" alt="エクスクラメーション">
+                </div>
+                <h2>NEWS</h2>
+              </div>
+              <div class="c-news__contents">
+                <dl class="c-news__item">
+                  <dt class="c-news__title">スイッチエデュケーション</dt>
+                  <dd class="c-news__text">
+                    <p>2019.04.24</p>
+                    <p class="p-news__textData">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</p>
+                  </dd>
+                </dl>
+                <dl class="c-news__item">
+                  <dt class="c-news__title redTitle">144lab</dt>
+                  <dd class="c-news__text">
+                    <p>2019.04.24</p>
+                    <p class="p-news__textData">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</p>
+                  </dd>
+                </dl>
+                <dl class="c-news__item">
+                  <dt class="c-news__title greenTitle">スイッチサイエンス</dt>
+                  <dd class="c-news__text">
+                    <p>2019.04.24</p>
+                    <p class="p-news__textData">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</p>
+                  </dd>
+                </dl>
+                <dl class="c-news__item">
+                  <dt class="c-news__title blueTitle">うんこボタン</dt>
+                  <dd class="c-news__text">
+                    <p>2019.04.24</p>
+                    <p class="p-news__textData">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</p>
+                  </dd>
+                </dl>
+                <div class="c-button p-news__button">
+                  <a class="c-button__link c-button__linkRight" href="#">一覧</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+    </div>
+  </main>
+  <footer class="l-footer" id="footer">
+    <div class="p-footer">
+      <nav class="p-footer__nav">
+        <ul class="p-footer__list">
+          <li class="p-footer__listItem"><a href="#p-section__about" class="p-foo-links">ABOUT</a></li>
+          <li class="p-footer__listItem"><a href="#p-section__news" class="p-foo-links">NEWS</a></li>
+          <li class="p-footer__listItem"><a href="#p-section__service" class="p-foo-links">SEAVICE & PRODUCT</a></li>
+          <li class="p-footer__listItem"><a href="#p-section__contact" class="p-foo-links">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="c-button c-foo__button">
+        <a class="c-button__link c-button__linkRight" href="">facebookページへ</a>
+      </div>
+      <address>
+        &copy; Copyright 144Lab, Inc. All Rights Reserved.
+      </address>
+    </div>
+  </footer>
 </body>
+
 </html>
